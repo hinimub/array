@@ -2,6 +2,14 @@
 
 Get the maximum value in an array.
 
+## Setup
+1. Select "Resources" > "Libraries..." in the Google Apps Script
+editor.
+2. Enter the project key in the "Find a Library" field, and choose "Select". 
+3. Choose a version in the dropdown box, and choose mlarraymax as the
+identifier. 
+4. Click the "Save" button.
+
 ## Usage
 
 ```js
