@@ -3,7 +3,9 @@
  * @param {Array<number>} input
  * @return {number}
  */
-export default function max(input) {
+'use strict';
+
+function max(input) {
     if (!Array.isArray(input)) {
         throw new Error('input must be an array');
     }
