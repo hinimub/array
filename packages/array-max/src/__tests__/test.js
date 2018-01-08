@@ -1,4 +1,6 @@
-import max from '..';
+import gas from 'gas-local';
+var mlarraymax = gas.require('./src');
+var max = (input) => mlarraymax.max(input);
 
 describe('array-max', () => {
     it('should return the max', () => {
