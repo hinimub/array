@@ -1,28 +1,22 @@
 # array-min
 
-  [![NPM version][npm-image]][npm-url]
-  [![npm download][download-image]][download-url]
-
 Get the minimum value in an array.
 
-## Installation
-
-`$ npm install --save ml-array-min`
+## Setup
+1. Select "Resources" > "Libraries..." in the Google Apps Script
+editor.
+2. Enter the project key `1MdrbVCjb9qfIpkZih14bGDah2FMbT75MyLOG34JtNxACmZ187zcbXuE7` in the "Find a Library" field, and choose "Select". 
+3. Choose a version in the dropdown box, and choose mlarraymin as the
+identifier. 
+4. Click the "Save" button.
 
 ## Usage
 
 ```js
-import min from 'ml-array-min';
-
-const result = min([1, 5, 3, 2, 4]);
+const result = mlarraymin.min([1, 5, 3, 2, 4]);
 // 1
 ```
 
 ## License
 
   [MIT](./LICENSE)
-
-[npm-image]: https://img.shields.io/npm/v/ml-array-min.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/ml-array-min
-[download-image]: https://img.shields.io/npm/dm/ml-array-min.svg?style=flat-square
-[download-url]: https://npmjs.org/package/ml-array-min
